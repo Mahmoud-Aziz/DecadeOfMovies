@@ -1,0 +1,6 @@
+framework module Pods_DecadeOfMovies_DecadeOfMoviesUITests {
+  umbrella header "Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

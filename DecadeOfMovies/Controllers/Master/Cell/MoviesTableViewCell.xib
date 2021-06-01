@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="KGk-i7-Jjw" userLabel="Movies Table View Cell" customClass="MoviesTableViewCell" customModule="DecadeOfMovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poster" translatesAutoresizingMaskIntoConstraints="NO" id="0Ll-Dd-QTA">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="bFv-lO-oNG"/>
+                            <constraint firstAttribute="height" constant="140" id="fnN-ak-zDe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIX-Cs-MaM">
+                        <rect key="frame" x="108" y="8" width="91" height="25"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Po6-jp-fQw">
+                        <rect key="frame" x="203" y="8" width="35.5" height="25"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO8-5M-34r">
+                        <rect key="frame" x="108" y="41" width="48" height="20.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gO8-5M-34r" firstAttribute="top" secondItem="dIX-Cs-MaM" secondAttribute="bottom" constant="8" symbolic="YES" id="8hg-9E-dsG"/>
+                    <constraint firstItem="Po6-jp-fQw" firstAttribute="leading" secondItem="dIX-Cs-MaM" secondAttribute="trailing" constant="4" id="CTu-6c-usC"/>
+                    <constraint firstItem="0Ll-Dd-QTA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="F7q-Rl-tQX"/>
+                    <constraint firstItem="dIX-Cs-MaM" firstAttribute="leading" secondItem="0Ll-Dd-QTA" secondAttribute="trailing" constant="8" id="Ig9-sR-QjV"/>
+                    <constraint firstItem="Po6-jp-fQw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="W9H-qK-hZM"/>
+                    <constraint firstItem="dIX-Cs-MaM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="dqf-kg-shA"/>
+                    <constraint firstItem="0Ll-Dd-QTA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mHl-s9-chK"/>
+                    <constraint firstItem="gO8-5M-34r" firstAttribute="leading" secondItem="0Ll-Dd-QTA" secondAttribute="trailing" constant="8" id="yR8-h0-GmU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieGenresLabel" destination="gO8-5M-34r" id="vFy-Tr-WAT"/>
+                <outlet property="moviePosterImageView" destination="0Ll-Dd-QTA" id="7g4-tl-zlV"/>
+                <outlet property="movieTitleLabel" destination="dIX-Cs-MaM" id="aNg-gs-dMl"/>
+                <outlet property="movieYearLabel" destination="Po6-jp-fQw" id="d8j-AI-Hq0"/>
+            </connections>
+            <point key="canvasLocation" x="-26.086956521739133" y="99.107142857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="poster" width="1074" height="1500"/>
+    </resources>
+</document>
