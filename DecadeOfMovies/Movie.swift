@@ -19,11 +19,9 @@ struct Movies: Decodable {
     let rating: Int
 }
 
-
-extension Movies {
-    static func fetchMovies() -> [Movies] {
-        let movies =  Bundle.main.decode(MoviesJSON.self, from: "movies.json")
-        let moviesCollection = movies.movies
-        return moviesCollection
-    }
+struct Section {
+    var sectionName: Int
+    var sectionElements: [Movies]
 }
+
+

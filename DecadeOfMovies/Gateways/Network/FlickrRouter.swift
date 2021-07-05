@@ -11,6 +11,7 @@ import Alamofire
 enum FlickrRouter: URLRequestConvertible {
 
     static let baseURL = "https://api.flickr.com/services/rest/"
+    static var searchQuery: String?
     case allPhotos
 
     var httpMethod: HTTPMethod {
@@ -31,7 +32,7 @@ enum FlickrRouter: URLRequestConvertible {
                 "format": "json",
                 "nojsoncallback": "1",
                 "extras": "url_q,url_z",
-                "text": "Adam"
+                "text": "\(FlickrRouter.searchQuery ?? "movies")"
                 ]
         }
     }

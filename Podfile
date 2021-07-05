@@ -9,7 +9,7 @@ target 'DecadeOfMovies' do
 
   pod 'Alamofire', '~> 5.2'
   pod 'Kingfisher', '~> 6.0'
-  pod 'JGProgressHUD'
+  pod 'ProgressHUD'
 
   target 'DecadeOfMoviesTests' do
     inherit! :search_paths

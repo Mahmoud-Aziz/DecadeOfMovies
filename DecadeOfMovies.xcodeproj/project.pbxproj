@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		077F0DA05FA2651BAC5183D2 /* Pods_DecadeOfMoviesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE737C09C1C841AA78BBDAD /* Pods_DecadeOfMoviesTests.framework */; };
 		34A602F868B0ACFB6A86D5E3 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE1131D22004A30E3AFFB55 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework */; };
+		62A9786F266D73A300ECD838 /* Array + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9786E266D73A300ECD838 /* Array + Extention.swift */; };
+		62A97871266F15AB00ECD838 /* OMDB_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A97870266F15AB00ECD838 /* OMDB_API.swift */; };
+		62A97873266F167B00ECD838 /* OMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A97872266F167B00ECD838 /* OMDB.swift */; };
+		62A97875267106CE00ECD838 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A97874267106CE00ECD838 /* Service.swift */; };
 		62D4F17126630C1E00208B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F17026630C1E00208B01 /* AppDelegate.swift */; };
 		62D4F17326630C1E00208B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F17226630C1E00208B01 /* SceneDelegate.swift */; };
 		62D4F17826630C1E00208B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D4F17626630C1E00208B01 /* Main.storyboard */; };
@@ -32,6 +36,9 @@
 		62D4F1CC2665327B00208B01 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D4F1CA2665327B00208B01 /* DetailsViewController.xib */; };
 		62D4F1D02665723B00208B01 /* FlickrCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F1CE2665723B00208B01 /* FlickrCollectionViewCell.swift */; };
 		62D4F1D12665723B00208B01 /* FlickrCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D4F1CF2665723B00208B01 /* FlickrCollectionViewCell.xib */; };
+		62D4F1D62666B4AB00208B01 /* MasterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F1D52666B4AB00208B01 /* MasterPresenter.swift */; };
+		62D4F1D92666E9C600208B01 /* MasterRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F1D82666E9C600208B01 /* MasterRoute.swift */; };
+		62D4F1DC2666EA4A00208B01 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D4F1DB2666EA4A00208B01 /* DetailsPresenter.swift */; };
 		F9FFDCDF64DF6FC43ADEF205 /* Pods_DecadeOfMovies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A09134D67FD699FA563FFE /* Pods_DecadeOfMovies.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +64,10 @@
 		2C57E672A77748BFD3FAD9F1 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig"; path = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests/Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		339AAA2067C0E34FFF17F5BB /* Pods-DecadeOfMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecadeOfMovies.debug.xcconfig"; path = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies.debug.xcconfig"; sourceTree = "<group>"; };
 		530474768B9BB1991F84A773 /* Pods-DecadeOfMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecadeOfMoviesTests.debug.xcconfig"; path = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62A9786E266D73A300ECD838 /* Array + Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + Extention.swift"; sourceTree = "<group>"; };
+		62A97870266F15AB00ECD838 /* OMDB_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDB_API.swift; sourceTree = "<group>"; };
+		62A97872266F167B00ECD838 /* OMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDB.swift; sourceTree = "<group>"; };
+		62A97874267106CE00ECD838 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		62D4F16D26630C1E00208B01 /* DecadeOfMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecadeOfMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D4F17026630C1E00208B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62D4F17226630C1E00208B01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +97,9 @@
 		62D4F1CA2665327B00208B01 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 		62D4F1CE2665723B00208B01 /* FlickrCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrCollectionViewCell.swift; sourceTree = "<group>"; };
 		62D4F1CF2665723B00208B01 /* FlickrCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlickrCollectionViewCell.xib; sourceTree = "<group>"; };
+		62D4F1D52666B4AB00208B01 /* MasterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterPresenter.swift; sourceTree = "<group>"; };
+		62D4F1D82666E9C600208B01 /* MasterRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterRoute.swift; sourceTree = "<group>"; };
+		62D4F1DB2666EA4A00208B01 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
 		6DE1131D22004A30E3AFFB55 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAFD09BDA0C62F46F575D41 /* Pods-DecadeOfMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecadeOfMoviesTests.release.xcconfig"; path = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
 		E3B9573D8104111953FBB827 /* Pods-DecadeOfMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecadeOfMovies.release.xcconfig"; path = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +237,7 @@
 			children = (
 				62D4F1A826630D5300208B01 /* FlickrRouter.swift */,
 				62D4F1AA26630D5C00208B01 /* FlickrRequest.swift */,
+				62A97870266F15AB00ECD838 /* OMDB_API.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -232,6 +247,8 @@
 			children = (
 				62D4F1AE26630DE100208B01 /* Flickr.swift */,
 				62D4F1B626643FBD00208B01 /* Movie.swift */,
+				62A97872266F167B00ECD838 /* OMDB.swift */,
+				62A97874267106CE00ECD838 /* Service.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -240,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				62D4F1B926644C6400208B01 /* Bundle + Extention.swift */,
+				62A9786E266D73A300ECD838 /* Array + Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -265,9 +283,10 @@
 		62D4F1C726651F2800208B01 /* Master */ = {
 			isa = PBXGroup;
 			children = (
+				62D4F1D72666E9B600208B01 /* MasterNavigationRoute */,
+				62D4F1D32666B48800208B01 /* MasterView */,
+				62D4F1D42666B49600208B01 /* MasterPresenter */,
 				62D4F1C226651EFD00208B01 /* Cell */,
-				62D4F1BE26651CAB00208B01 /* MasterViewController.swift */,
-				62D4F1BF26651CAB00208B01 /* MasterViewController.xib */,
 			);
 			path = Master;
 			sourceTree = "<group>";
@@ -275,9 +294,9 @@
 		62D4F1C82665325B00208B01 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				62D4F1DD2666EF5100208B01 /* DetailsView */,
+				62D4F1DA2666EA3C00208B01 /* DetailsPresenter */,
 				62D4F1CD2665721C00208B01 /* Cell */,
-				62D4F1C92665327B00208B01 /* DetailsViewController.swift */,
-				62D4F1CA2665327B00208B01 /* DetailsViewController.xib */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -289,6 +308,48 @@
 				62D4F1CF2665723B00208B01 /* FlickrCollectionViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		62D4F1D32666B48800208B01 /* MasterView */ = {
+			isa = PBXGroup;
+			children = (
+				62D4F1BE26651CAB00208B01 /* MasterViewController.swift */,
+				62D4F1BF26651CAB00208B01 /* MasterViewController.xib */,
+			);
+			path = MasterView;
+			sourceTree = "<group>";
+		};
+		62D4F1D42666B49600208B01 /* MasterPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				62D4F1D52666B4AB00208B01 /* MasterPresenter.swift */,
+			);
+			path = MasterPresenter;
+			sourceTree = "<group>";
+		};
+		62D4F1D72666E9B600208B01 /* MasterNavigationRoute */ = {
+			isa = PBXGroup;
+			children = (
+				62D4F1D82666E9C600208B01 /* MasterRoute.swift */,
+			);
+			path = MasterNavigationRoute;
+			sourceTree = "<group>";
+		};
+		62D4F1DA2666EA3C00208B01 /* DetailsPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				62D4F1DB2666EA4A00208B01 /* DetailsPresenter.swift */,
+			);
+			path = DetailsPresenter;
+			sourceTree = "<group>";
+		};
+		62D4F1DD2666EF5100208B01 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				62D4F1C92665327B00208B01 /* DetailsViewController.swift */,
+				62D4F1CA2665327B00208B01 /* DetailsViewController.xib */,
+			);
+			path = DetailsView;
 			sourceTree = "<group>";
 		};
 		EED24212BFDF4358BB9949C8 /* Frameworks */ = {
@@ -549,14 +610,21 @@
 				62D4F1C026651CAB00208B01 /* MasterViewController.swift in Sources */,
 				62D4F1B726643FBD00208B01 /* Movie.swift in Sources */,
 				62D4F1AB26630D5C00208B01 /* FlickrRequest.swift in Sources */,
+				62A97873266F167B00ECD838 /* OMDB.swift in Sources */,
 				62D4F1A526630D0700208B01 /* UIViewController + Extention.swift in Sources */,
 				62D4F1A326630CF500208B01 /* Route.swift in Sources */,
+				62D4F1D92666E9C600208B01 /* MasterRoute.swift in Sources */,
 				62D4F1C526651F1F00208B01 /* MoviesTableViewCell.swift in Sources */,
 				62D4F1BA26644C6400208B01 /* Bundle + Extention.swift in Sources */,
+				62A9786F266D73A300ECD838 /* Array + Extention.swift in Sources */,
 				62D4F1A926630D5300208B01 /* FlickrRouter.swift in Sources */,
+				62A97871266F15AB00ECD838 /* OMDB_API.swift in Sources */,
 				62D4F17126630C1E00208B01 /* AppDelegate.swift in Sources */,
 				62D4F1CB2665327B00208B01 /* DetailsViewController.swift in Sources */,
+				62D4F1D62666B4AB00208B01 /* MasterPresenter.swift in Sources */,
+				62A97875267106CE00ECD838 /* Service.swift in Sources */,
 				62D4F17326630C1E00208B01 /* SceneDelegate.swift in Sources */,
+				62D4F1DC2666EA4A00208B01 /* DetailsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
